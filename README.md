@@ -53,18 +53,18 @@ While the bulk of PythonTA's functionality is implemented in pure Python, some o
     - After the installation, you can verify the installation by running the following in a terminal:
 
         ```console
-        $ dot -V
+        $ dot -V  # Older versions should be fine
         dot - graphviz version 12.2.1 (20241206.2353)
         ```
 
 2. Install [Node.js](https://nodejs.org/en/download), a Javascript engine. PythonTA uses a Javascript package called [memory-viz](https://github.com/david-yz-liu/memory-viz) to create memory model diagrams.
     - Please verify the installation by running the following in a terminal:
 
-    ```console
-    $ node --version   # Older versions (v20, v18) should be fine
-    v22.14.0
-    $ npx --version    # Same here
-    11.1.0
+        ```console
+        $ node --version   # Older versions (v20, v18) should be fine
+        v22.14.0
+        $ npx --version    # Same here
+        11.1.0
 
 ## Additional resources
 
