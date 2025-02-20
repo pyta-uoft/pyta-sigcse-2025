@@ -37,14 +37,17 @@ Steps:
     $ python3 -m pip install 'python-ta[z3,cfg]'
     ```
 
-3. To check your installation, run the following command. You should see `2.10.0` printed out.
+3. To check your installation, run the following command. You should see `2.10.1` printed out.
 
     ```console
     # Windows
     $ python -m python_ta --version
+    2.10.1
 
     # macOS/Unix
     $ python3 -m python_ta --version
+    2.10.1
+    ```
 
 While the bulk of PythonTA's functionality is implemented in pure Python, some of its visualizations require additional software to be installed:
 
