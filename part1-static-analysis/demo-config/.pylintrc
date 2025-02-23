@@ -1,0 +1,8 @@
+[CUSTOM PYTA OPTIONS]
+output-format = python_ta.reporters.PlainReporter
+
+[FORMAT]
+max-line-length = 120
+
+[FORBIDDEN IMPORT]
+extra-imports = datetime, statistics

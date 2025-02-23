@@ -1,0 +1,8 @@
+# This file illustrates how error messages can be overridden. For more information, see
+# https://www.cs.toronto.edu/~david/pyta/usage/configuration.html#overriding-error-messages
+
+["pylint.checkers.refactoring".RefactoringChecker]
+R1716 = "Multiple comparisons separated by 'and' can be simplified to a chained comparison. For example, 'a < b and b < c' can be simplified to 'a < b < c'."
+
+["python_ta.checkers.unnecessary_indexing_checker".UnnecessaryIndexingChecker]
+E9994 = "Index-based for loop (with index `%s`) can be simplified by looping over the elements of %s directly."
