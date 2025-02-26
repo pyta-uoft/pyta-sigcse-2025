@@ -6,14 +6,11 @@ from __future__ import annotations
 
 
 def greet(age: int) -> str:
-    """Return a greeting based on the given age.
-    """
-    if age >= 13 and age <= 18:
-        return 'Hi'
-    elif age > 18:
-        return 'Hello'
+    """Return a greeting based on the given age."""
+    if 10 < age and age < 13:
+        return 'Hi!'
     else:
-        return "Hi, here's some chocolate!"
+        return "Hello"
 
 
 def calculate_sum(numbers: list[int]) -> int:

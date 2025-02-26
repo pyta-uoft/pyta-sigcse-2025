@@ -1,4 +1,4 @@
-"""This file illustrates how PythonTA check_contracts can be used in unit tests.
+"""Demo file to illustrate how PythonTA check_contracts can be used in unit tests.
 """
 import unittest
 from python_ta.contracts import check_contracts

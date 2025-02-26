@@ -4,7 +4,8 @@ from __future__ import annotations
 
 
 def search(numbers: list[int], item: int) -> str:
-    """Return 'Found' if <item> appears in <numbers>, and 'Not found' otherwise.
+    """Return 'Found' if <item> appears in <numbers>,
+    and 'Not found' otherwise.
     """
     for number in numbers:
         if number == item:

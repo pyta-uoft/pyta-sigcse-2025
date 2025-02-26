@@ -1,4 +1,4 @@
-"""This file illustrates how PythonTA can check function pre- and postconditions dynamically.
+"""Demo file to illustrate how PythonTA can check function pre- and postconditions dynamically.
 """
 from __future__ import annotations
 from python_ta.contracts import check_contracts
@@ -38,7 +38,8 @@ def binary_search(numbers: list[int], x: int) -> int:
         else:
             j = mid
 
-    # Bug: final return statement is missing
+    # Bug: incorrect value is returned
+    return mid
 
 
 def is_sorted(numbers: list[int]) -> bool:

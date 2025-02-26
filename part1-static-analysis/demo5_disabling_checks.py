@@ -1,4 +1,4 @@
-"""Demo file to illustrate PythonTA's configuration options for disabling checks.
+"""Demo file to illustrate PythonTA's configuration option for disabling checks.
 
 Code is duplicated from demo2_style_checks.py.
 """
@@ -14,12 +14,11 @@ def calculate_sum(numbers: list[int]) -> int:
 
 
 def greet(age: int) -> str:
-    """Return a greeting based on the given age.
-    """
-    if age >= 13 and age <= 18:
+    """Return a greeting based on the given age."""
+    if 10 < age and age < 13:
         return 'Hi!'
     else:
-        return "Hello"
+        return 'Hello'
 
 
 def function_no_doc(x):

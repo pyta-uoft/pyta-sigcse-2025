@@ -1,4 +1,4 @@
-"""This file illustrates how PythonTA can check type annotations dynamically.
+"""Demo file to illustrate how PythonTA can check type annotations dynamically.
 """
 from __future__ import annotations
 from python_ta.contracts import check_contracts

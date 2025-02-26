@@ -9,6 +9,7 @@ These materials are organized as follows:
     - `demo3_class_contracts.py` (checking class invariants)
     - `demo4_inheritance.py` (checking class invariants when inheritance is used)
     - `demo5_unittest.py` (integrating contract checking with test suites)
+    - `demo6_sample_exercises.py` (illustrating sample exercises based on contract checking)
 - Demos of using Z3 to incorporate logical conditions into static analysis:
     - `z3/z3_intro.py` (a very short demo of Z3)
     - `z3/condition_checking.py` (identifying redundant and impossible conditions)

@@ -1,4 +1,4 @@
-"""This file illustrates how to use PythonTA to create an interactive web visualization
+"""Demo file to illustrate how to use PythonTA to create an interactive web visualization
 of an executing block of code.
 
 This requires Node.js to be installed (https://nodejs.org/en/download/current).

@@ -15,7 +15,7 @@ def calculate_average(a: int, b: int) -> int:
 def calculate_sum(numbers1: list[int], numbers2: list[int]) -> int:
     """Return the sum of the numbers in both given lists.
 
-    You may NOT use any loops (but instead use an appropriate built-in function).
+    You may NOT use any loops (instead use an appropriate built-in function).
     """
     current_sum = 0
     for number in numbers1 + numbers2:
@@ -41,5 +41,5 @@ if __name__ == '__main__':
     import python_ta
     python_ta.check_all(config={
         'output-format': 'python_ta.reporters.PlainReporter',
-        'disallowed-python-syntax': ['For']
+        'disallowed-python-syntax': ['For', 'While']
     })

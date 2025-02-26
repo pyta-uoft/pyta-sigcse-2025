@@ -1,6 +1,6 @@
 """Demo file to illustrate PythonTA's autoformatting using Black.
 
-The code in this file is duplicated from demo_1formatting_checks.py,
+The code in this file is duplicated from demo1_formatting_checks.py,
 except the arguments passed to to python_ta.check_all.
 
 For more information on Black, see https://black.readthedocs.io/en/stable/.

@@ -1,8 +1,8 @@
-"""This file illustrates how PythonTA check_contracts works with inheritance.
+"""Demo file to illustrate how PythonTA contract checking works with inheritance.
 """
 from python_ta.contracts import check_contracts
 
-from class_specification_checking import Person
+from demo3_class_contracts import Person
 
 
 @check_contracts

@@ -12,16 +12,16 @@ def calculate_sum(numbers: list[int]) -> int:
 
 
 def greet(age: int) -> str:
-    """Return a greeting based on the given age.
-    """
-    if age >= 13 and age <= 18:
+    """Return a greeting based on the given age."""
+    if 10 < age and age < 13:
         return 'Hi!'
     else:
-        return "Hello"
+        return 'Hello'
 
 
-def function_no_doc(x):
-    return x + 1
+# After running this file once, try uncommenting below and running it again
+# def function_no_doc(x):
+#     return x + 1
 
 
 if __name__ == '__main__':

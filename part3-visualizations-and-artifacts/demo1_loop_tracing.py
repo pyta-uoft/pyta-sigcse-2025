@@ -1,4 +1,4 @@
-"""This file illustrates the use of PythonTA's AccumulationTable context manager.
+"""Demo file to illustrate the use of PythonTA for creating loop tracing tables.
 """
 from python_ta.debug import AccumulationTable
 

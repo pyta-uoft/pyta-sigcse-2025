@@ -1,4 +1,4 @@
-"""This file illustrates how PythonTA can be used to generate memory model diagrams.
+"""Demo file to illustrate how PythonTA can be used to generate memory model diagrams.
 
 This requires Node.js to be installed (https://nodejs.org/en/download/current).
 """
